@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f652ae330009a324a9e560094ec000aa, type: 3}
+  m_Name: CFG_CharacterMovement
+  m_EditorClassIdentifier: 
+  <MoveSpeed>k__BackingField: 7.5
+  <CarryingMoveSpeedMultiplier>k__BackingField: 0.68
+  <ChargingMoveSpeedMultiplier>k__BackingField: 0.45
+  <Acceleration>k__BackingField: 42
+  <Deceleration>k__BackingField: 50
+  <RotationSpeed>k__BackingField: 720
+  <JumpForce>k__BackingField: 10.5
+  <CarryingJumpMultiplier>k__BackingField: 0.72
+  <CoyoteTimeDuration>k__BackingField: 0.12
+  <JumpBufferDuration>k__BackingField: 0.14
+  <GroundCheckRadius>k__BackingField: 0.32
+  <GroundCheckOffset>k__BackingField: 0.08
+  <MinThrowForce>k__BackingField: 8
+  <MaxThrowForce>k__BackingField: 21
+  <SweetSpotForceMultiplier>k__BackingField: 1.28
+  <ChargeSpeed>k__BackingField: 1.15
+  <SweetSpotMin>k__BackingField: 0.82
+  <SweetSpotMax>k__BackingField: 0.95
+  <CatchSlowMoRadius>k__BackingField: 3.8
+  <QuickPassMaxDistance>k__BackingField: 9.5
